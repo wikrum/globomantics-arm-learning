@@ -32,3 +32,4 @@ jobs:
         with:
           inlinescript: |
             az deployment sub create --location "Australia East" --template-file ./arm-templates/resourcegroup.json
+            
