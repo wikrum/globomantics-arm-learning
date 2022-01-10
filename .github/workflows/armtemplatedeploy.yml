@@ -51,8 +51,6 @@ jobs:
           scope: resourcegroup
           resourceGroupName: rg-githubactions
           subscriptionId: 268a8b0a-3231-40cf-ae76-521d8db8619d
-
           template: ./arm-templates/virtualmachine.json
-          parameters: 
-            adminPassword="My$ecureP@ssword!"
+          parameters: adminPassword="My$ecureP@ssword!"
           deploymentMode: incremental
