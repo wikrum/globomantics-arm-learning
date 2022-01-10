@@ -41,7 +41,7 @@ jobs:
           template: ./arm-templates/storageaccount.json
           parameters: 
             sku=Standard_LRS
-            storageAccountName=globostg002
+            storageAccountName="wikrum1015"
             location="Australia East"
           deploymentMode: incremental
 
